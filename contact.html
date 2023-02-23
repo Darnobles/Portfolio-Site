@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Excercise 1.2</title>
+    <link rel="shortcut icon" type="image/png" href="img/wikipedia.png">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <!--add a logo-->
+        <img src="http://via.placeholder.com/200x70" alt="logo">
+        <nav>
+            <ul role="menubar" class="navigation list">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem" class="navigation-list_item navigation-list_item--active">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem" class="navigation-list_item">About</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" role="menuitem" class="navigation-list_item">Contact</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem" class="navigation-list_item">Work</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <h1>Contact</h1>
+    </div>
+    <div>
+        Dar-Lissea Nobles<br>
+        123 Fake Street<br>
+        Brooklyn NY 11223<br>
+        Phone# 123-456-7890<br>
+        <a href="mailto:dnobles1988@yahoo.com">dnobles1988@yahoo.com</a>
+    </div>
+    <div>
+        <a href="mailto:dnobles1988@yahoo.com">Contact me</a>
+    </div>
+    <div>
+        <form action="" method="post" id="contact form">
+            <label class="standard-label" for="contact email">E-mail:</label>
+            <input type="email" id="contact email" required>
+
+            <label class="standard-label" for="contact telephone">Telephone: </label>
+            <input type="tel" id="contact telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+
+            <label class="standard-label">Messgae: </label>
+            <textarea maxlength="240" required></textarea>
+            <input type="submit" value="send message">
+        </form>
+    </div>
+<script src="js/tota11y.min.js"></script>
+</body>
