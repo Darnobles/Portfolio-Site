@@ -30,33 +30,30 @@
             </nav>
         </header>
     <div>
-        <h1>Contact</h1>
+        <h1 class="contact_title">Contact Me</h1>
     </div>
-    <div>
+    <div class="contact_info">
         Dar-Lissea Nobles<br>
-        123 Fake Street<br>
-        Brooklyn NY 11223<br>
-        Phone# 123-456-7890<br>
-        <a href="mailto:dnobles1988@yahoo.com">dnobles1988@yahoo.com</a>
+        Staten Island, N.Y<br>
+        <a href="mailto:darlissean@gmail.com">Email</a>
     </div>
-    <div>
-        <a href="mailto:dnobles1988@yahoo.com">Contact me</a>
-    </div>
-    <div>
+    <div class="container">
         <form action="" method="post" id="contact form">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your first name">
+            
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name">
+
             <label class="standard-label" for="contact email">E-mail:</label>
-            <input type="email" id="contact email" required>
-            <br>
-            <br>
+            <input type="text" id="contact email" required>
 
             <label class="standard-label" for="contact telephone">Telephone: </label>
-            <input type="tel" id="contact telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
-            <br>
-            <br>
+            <input type="text" id="contact telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
 
             <label class="standard-label">Messgae: </label>
-            <textarea maxlength="240" required></textarea>
-            <br>
+            <textarea id="subject" name="subject" maxlength="240" required></textarea>
+            
             <input type="submit" value="send message">
         </form>
     </div>
