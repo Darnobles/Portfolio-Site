@@ -1,7 +1,7 @@
 :root {
     --primary-color: #faf0e6;
     --secondary-color: #e0b354;
-    --dark-grey: #2b2b2b;
+    --dark-brown: #2e2726;
     --dark-green: #357b70;
     --turquoise: #05676e;
     --light-green: #489c79;
@@ -10,18 +10,20 @@
     --yellow: #fcffad;
     --orange: #f76414;
     --white: #ffffff;
-    --light-grey: #eeeeee;
+    --dark-pink: #DCC3C0;
+    --blue:#C0D9DC;
 }
 a {
     color: var(--primary-color);
 }
 body {
-    color: var(--dark-grey);
+    color: var(--dark-brown);
     background-color: var(--primary-color);
 }
 /*colors used dark slate gray for backgound: #2F4F4F and lightgray:#2b2b2b for text*/
 body {
-    font-family: 'raleway', sans-serif
+    font-family: 'raleway', sans-serif;
+    font-weight: bold;
 }
 h1 {
     font-size: 30px;
@@ -66,7 +68,7 @@ button:hover, button:focus {
 }
 .button_secondary {
     background-color: var(--tan);
-    color: var(--dark-grey);
+    color: var(--dark-brown);
 }
 .profile_portrait {
     float: left;
@@ -77,6 +79,11 @@ button:hover, button:focus {
 .page-header_item {
     width: 200px;
     height: auto;
+}
+.page-header {
+    background-color: var(--dark-pink);
+    padding: 20px;
+
 }
 .page-footer {
     clear: both;
@@ -116,7 +123,7 @@ button:hover, button:focus {
     grid-gap: 20px;
 }
 .grid_item {
-    background-color: var(--light-grey);
+    background-color: var(--blue);
     padding: 20px
 }
 .grid_item:last-child {
@@ -216,3 +223,4 @@ button:focus,
 .cloud-back {
     animation: 34s cloud-move-reverse infinite alternate linear;
 }
+
