@@ -20,11 +20,15 @@ a {
 body {
     color: var(--dark-brown);
     background-color: var(--primary-color);
+ main
 }
 /*colors used dark slate gray for backgound: #2F4F4F and lightgray:#2b2b2b for text*/
 body {
     font-family: 'Gruppo', sans-serif;
     font-weight: bold;
+
+    font-family: 'raleway', sans-serif;
+gh-pages
 }
 h1 {
     font-size: 30px;
@@ -126,10 +130,15 @@ button:hover, button:focus {
     margin: 50px 50px 0px 50px;
 }
 .grid_item {
+main
     background-color: var(--primary-color);
     padding: 20px;
     box-shadow: 0 0 18px #f7e4cb;
     border-radius: 15px;
+
+    background-color: var(--light-grey);
+    padding: 20px;
+ gh-pages
 }
 .grid_item:last-child {
     grid-column-start: 3;
@@ -184,6 +193,7 @@ button:focus,
 }
 .list {
     list-style-type: none;
+    padding: 0px;
 }
 
 /* Style inputs with type="text", select elements and textareas */
