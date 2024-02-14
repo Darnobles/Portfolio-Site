@@ -162,7 +162,7 @@ button:hover, button:focus {
     border: none;
     display: inline-block;
     font-family: inherit;
-    background-color: var(--dark-green);
+    background-color: var(--dark-pink);
     color: var(--white);
     text-decoration: none;
     padding: 10px;
@@ -179,53 +179,10 @@ button:focus,
 }
 .about {
     text-align: center;
+    margin-top: 30px;
 }
 .list {
     list-style-type: none;
-}
-@keyframes color-change {
-    0% {
-        fill: var(--dark-yellow);
-    }
-    50% {
-        fill: var(--yellow);
-    }
-    100% {
-        fill: var(--orange);
-    }
-}
-.sun {
-    animation-duration: 4s;
-    animation-name: color-change;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: linear;
-}
-@keyframes cloud-move {
-    from {
-        transform: translate(0, 50px);
-    }
-    to {
-        transform: translate(200px, 50px);
-    }
-}
-.cloud-front {
-    animation-duration: 30s;
-    animation-name: cloud-move;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: linear;
-}
-@keyframes cloud-move-reverse {
-    from {
-        transform: translate(446px, 48px);
-    }
-    to {
-        transform: translate(100px, 48px);
-    }
-}
-.cloud-back {
-    animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -237,7 +194,7 @@ input[type=text], select, textarea {
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
   }
   
   /* Style the submit button with a specific background color etc */
@@ -250,7 +207,7 @@ input[type=text], select, textarea {
     cursor: pointer;
   }
   
-  /* When moving the mouse over the submit button, add a darker green color */
+  /* When moving the mouse over the submit button, add a color */
   input[type=submit]:hover {
     background-color: var(--dark-pink);
   }
@@ -260,6 +217,9 @@ input[type=text], select, textarea {
     border-radius: 5px;
     /* background-color: #f2f2f2; */
     padding: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 30px;
   }
 
   .contact_info {
