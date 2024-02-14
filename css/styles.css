@@ -23,7 +23,7 @@ body {
 }
 /*colors used dark slate gray for backgound: #2F4F4F and lightgray:#2b2b2b for text*/
 body {
-    font-family: 'raleway', sans-serif;
+    font-family: 'Gruppo', sans-serif;
     font-weight: bold;
 }
 h1 {
@@ -40,6 +40,7 @@ h3 {
 }
 a {
     color: var(--dark-green);
+    font-size: 20px;
 }
 a:visited {
     /* visited link */
