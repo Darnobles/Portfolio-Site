@@ -1,73 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>My Portfolio</title>
-    <link rel="shortcut icon" type="image/png" href="img/initials-32x32.png">
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Kanit:wght@300&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-</head>
-<body>
+    <link rel="shortcut icon" type="image/png" href="img/initials-32x32.png" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gruppo&family=Kanit:wght@300&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
+  <body>
     <header class="page-header">
-        <!--add a logo-->
-        <img src="img/logo2.png" alt="logo" class="page-header_item">
-        <nav class="main-navigation page-header_item">
-            <ul role="menubar" class="navigation-list">
-                <li role="presentation">
-                    <a href="index.html" role="menuitem" class="navigation-list_item navigation-list_item--active">Home</a>
-                </li>
-                <li role="presentation">
-                    <a href="about.html" role="menuitem" class="navigation-list_item">About</a>
-                </li>
-                <li role="presentation">
-                    <a href="contact.html" role="menuitem" class="navigation-list_item">Contact</a>
-                </li>
-                <li role="presentation">
-                    <a href="work.html" role="menuitem" class="navigation-list_item">Work</a>
-                </li>
-            </ul>
-        </nav>
+      <!--add a logo-->
+      <img src="img/logo2.png" alt="logo" class="page-header_item" />
+      <nav class="main-navigation page-header_item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a
+              href="index.html"
+              role="menuitem"
+              class="navigation-list_item navigation-list_item--active"
+              >Home</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="#about" role="menuitem" class="navigation-list_item"
+              >About</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="#work" role="menuitem" class="navigation-list_item"
+              >Work</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="#contact" role="menuitem" class="navigation-list_item"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
-    <br>
-    <br>
-    <div class="profile">
-        <!--add a photo of me-->
-        <img src="img/noblesdarlissea.png" class="profile_portrait" alt="darlissea portrait">
-        <h1>Welcome</h1>
-        <p>
-            My name is Dar-Lissea. I am a <span>Full Stack</span> developer from New York, with experience in cloud computing.
-        </p>
-        <a href="https://github.com/Darnobles">Check out some of my code</a>
-    </div>
+    <br />
+    <br />
+    <section class="profile">
+      <!--add a photo of me-->
+      <img
+        src="img/noblesdarlissea.png"
+        class="profile_portrait"
+        alt="darlissea portrait"
+      />
+      <h1>Welcome</h1>
+      <p>
+        My name is Dar-Lissea. I am a <span>Full Stack</span> developer from New
+        York, with experience in cloud computing. Constantly looking for new
+        ways to express my creativity and a desire to learn new things led me
+        down the path to persue a career in web development.
+      </p>
+      <a href="https://github.com/Darnobles">Check out some of my code</a>
+      <a
+        href="C:\Users\Darlissea Nobles\Documents\Job Preparation Course\Nobles, Dar-Lissea _Resume.pdf"
+        class="button"
+        download
+        >Download my CV</a
+      >
+    </section>
     <!-- <div>
         <a href="#">Default Link</a>
         <button type="button">Default Button</button>
         <button class="button_secondary">Secondary Button</button>
     </div> -->
 
-    
-    <footer class="page-footer">
-        <p>Find me on</p>
-        <div class="social-media">
-            <!--add Github logo-->  
-            <a href="https://github.com/Darnobles" target="_blank"> 
-            <img src="img/github_icon.svg" alt="Github">
-            </a> 
-            <!--add Linked in logo-->
-            <a href="https://www.linkedin.com/in/darlissea-nobles/" target="_blank">
-            <img src="img/linkedin_icon.svg" alt="Linked In">
-            </a>
-            <!--add Twitter in logo-->
-            <a href="https://twitter.com/home" target="_blank">
-            <img src="img/twitter_icon.svg" alt="twitter">
-            </a>
-            <!--add Medium in logo-->
-            <a href="https://medium.com/@darlissean" target="_blank">
-            <img src="img/medium_logo.svg" alt="medium">
-            </a>
+    <section class="about-page" id="about">
+      <div class="content">
+        <h1>About Me</h1>
+        <p>
+          For the past ten years, I've worked in the veterinary field,<br />
+          gaining extensive knowledge in animal care. Before that, I worked<br />
+          as a photographer for seven years, which not only helped me grow<br />
+          creatively but also taught me various software programs and allowed<br />
+          me to experiment with different styles and effects.<br />
+          <br />
+          In my spare time I enjoy traveling and learning about other<br />
+          cultures or relaxing with my family and friends. And the occasional<br />
+          binge watching.
+        </p>
+      </div>
+      <img
+        src="img/about-me-pic.png"
+        style="height: 600px"
+        class="about-image"
+      />
+    </section>
+    <section class="work-page" id="work">
+      <h1 class="work-title">Work</h1>
+      <div class="grid">
+        <div class="grid_item">
+          <h2>RESTful API</h2>
+          <img src="img/myFlix.png" style="height: 300px" />
+          <p>
+            This RESTful API uses the "MERN" stack to allow users to search for
+            their favorite movies and save them to their profile.
+          </p>
+          <a href="https://github.com/Darnobles/movie_api"
+            >See project on Github</a
+          >
         </div>
+        <div class="grid_item">
+          <h2>React Native App</h2>
+          <img
+            src="img/chatApp.png"
+            style="height: 300px; margin-right: 10px"
+          />
+          <img
+            src="img/ChatApp2.png"
+            style="height: 300px; margin-right: 10px"
+          />
+          <p>
+            This React Native mobile application which uses Gifted Chat, a React
+            Native library specifically created for developing chat apps. It not
+            only provides the user with the ability to converse with others, but
+            provides them with the option to share their location and images.
+          </p>
+          <a href="https://github.com/Darnobles/chat">See project on Github</a>
+        </div>
+        <div class="grid_item">
+          <h2>JavaScript Web App</h2>
+          <div style="display: flex">
+            <img
+              src="img/simpleApp.png"
+              style="height: 300px; margin-right: 10px"
+            />
+            <img
+              src="img/Pokedex2.png"
+              style="height: 300px; margin-right: 10px"
+            />
+          </div>
+          <p>
+            Built with HTML, CSS and JavaScript, this web application load data
+            from an external API via fetch and uses Bootstrap for the UI design.
+          </p>
+          <a href="https://github.com/Darnobles/simple-js-app"
+            >See project on Github</a
+          >
+        </div>
+        <div class="grid_item">
+          <h2>Angular APP / RESTful API</h2>
+          <img src="img/AugularApp.png" style="height: 300px" />
+          <p></p>
+          <a href="https://github.com/Darnobles/myFlix-Angular-clientSide"
+            >See project on Github</a
+          >
+        </div>
+        <!-- <div class="grid_item">
+              <h2>Medium Blog</h2>
+              <a href="#">See project on Github</a>
+            </div> -->
+        <div class="grid_item">
+          <h2>Progressive Web Application (PWA)</h2>
+          <img src="img/pwa-screenshot.png" style="height: 300px" />
+          <p>
+            This Progressive Web Application uses Google Calendar API to fetch
+            upcoming events. It was developed using AWS Lambda functions, React
+            and follows a test driven development approach.
+            <br />
+            <br />
+            Technologies used: React, CSS, AWS Lambda, Google Calendar API,
+            Jest, Puppeteer
+          </p>
+          <a href="https://darnobles.github.io/Meet-Up/"
+            >Check out my Meet Up App</a
+          >
+          <br />
+          <br />
+          <a href="https://github.com/Darnobles/Meet-Up"
+            >See project on Github</a
+          >
+          <br />
+          <br />
+          <a
+            href="C:\Users\Darlissea Nobles\Documents\Job Preparation Course\Case Study_Meet App.pdf"
+            >See Case Study</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-page" id="contact">
+      <h1 class="contact_title">Get In Touch</h1>
+      <div class="contact_info">
+        Dar-Lissea Nobles<br />
+        Staten Island, N.Y<br />
+        <a href="mailto:darlissean@gmail.com">DarlisseaN@gmail.com</a>
+      </div>
+      <div class="container">
+        <form
+          action="mailto:darlissean@gmail.com"
+          method="post"
+          id="contact_form"
+        >
+          <label class="standard-label" for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your first name"
+          />
+
+          <label class="standard-label" for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name"
+          />
+
+          <label class="standard-label" for="contact_email">E-mail:</label>
+          <input type="text" id="contact_email" name="email" required />
+
+          <!-- <label class="standard-label" for="contact telephone">Telephone: </label>
+                  <input type="text" id="contact telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}"> -->
+
+          <label class="standard-label">Message: </label>
+          <textarea
+            id="subject"
+            name="subject"
+            maxlength="240"
+            required
+          ></textarea>
+
+          <input type="submit" value="send message" />
+        </form>
+      </div>
+    </section>
+
+    <footer class="page-footer">
+      <p>Find me on</p>
+      <div class="social-media">
+        <a href="https://github.com/Darnobles" target="_blank"
+          ><img src="img/github_icon.svg" alt="Github" /></a
+        ><a href="https://www.linkedin.com/in/darlissea-nobles/" target="_blank"
+          ><img src="img/linkedin_icon.svg" alt="Linked In" /></a
+        ><a href="https://twitter.com/home" target="_blank"
+          ><img src="img/twitter_icon.svg" alt="twitter" /></a
+        ><a href="https://medium.com/@darlissean" target="_blank"
+          ><img src="img/medium_logo.svg" alt="medium" />
+        </a>
+      </div>
     </footer>
-<script src="js/tota11y.min.js"></script>
-</body>
+    <script src="js/tota11y.min.js"></script>
+  </body>
 </html>
