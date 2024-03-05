@@ -100,7 +100,8 @@ button:hover, button:focus {
 .profile {
     max-width: 700px;
     margin: 0 auto;
-    margin-top: 200px;
+    padding-top: 200px;
+    height: 100vh;
 }
 * {
     box-sizing: border-box;
@@ -233,11 +234,11 @@ input[type=text], select, textarea {
     font-size: 40px;
   }
   .contact-page {
-    margin-top: 200px;
+    margin-top: 100px;
   }
 
   .work-page {
-    margin-top: 400px;
+    padding-top: 150px;
   }
 
   .work-title {
@@ -246,10 +247,10 @@ input[type=text], select, textarea {
   .about-page {
     text-align: left;
     margin-left: 30px;
-    margin-top: 600px;
     display: flex;
     align-items: center; /* Align items vertically */
     justify-content: center; /* Align items horizontally */
+    height: 100vh;
 
 }
 

@@ -31,13 +31,13 @@
             >
           </li>
           <li role="presentation">
-            <a href="#contact" role="menuitem" class="navigation-list_item"
-              >Contact</a
+            <a href="#work" role="menuitem" class="navigation-list_item"
+              >Work</a
             >
           </li>
           <li role="presentation">
-            <a href="#work" role="menuitem" class="navigation-list_item"
-              >Work</a
+            <a href="#contact" role="menuitem" class="navigation-list_item"
+              >Contact</a
             >
           </li>
         </ul>
@@ -45,7 +45,7 @@
     </header>
     <br />
     <br />
-    <div class="profile">
+    <section class="profile">
       <!--add a photo of me-->
       <img
         src="img/noblesdarlissea.png"
@@ -55,36 +55,36 @@
       <h1>Welcome</h1>
       <p>
         My name is Dar-Lissea. I am a <span>Full Stack</span> developer from New
-        York, with experience in cloud computing. Constantly looking for new ways to
-        express my creativity and a desire to learn new things led me down
-        the path to persue a career in web development.
+        York, with experience in cloud computing. Constantly looking for new
+        ways to express my creativity and a desire to learn new things led me
+        down the path to persue a career in web development.
       </p>
       <a href="https://github.com/Darnobles">Check out some of my code</a>
       <a
-      href="C:\Users\Darlissea Nobles\Documents\Job Preparation Course\Nobles, Dar-Lissea _Resume.pdf"
-      class="button"
-      download
-      >Download my CV</a
-    >
-    </div>
+        href="C:\Users\Darlissea Nobles\Documents\Job Preparation Course\Nobles, Dar-Lissea _Resume.pdf"
+        class="button"
+        download
+        >Download my CV</a
+      >
+    </section>
     <!-- <div>
         <a href="#">Default Link</a>
         <button type="button">Default Button</button>
         <button class="button_secondary">Secondary Button</button>
     </div> -->
 
-    <div class="about-page" id="about">
+    <section class="about-page" id="about">
       <div class="content">
         <h1>About Me</h1>
         <p>
-          For the past ten years, I've worked in the veterinary field,<br>
-          gaining extensive knowledge in animal care. Before that, I worked<br>
-          as a photographer for seven years, which not only helped me grow<br>
-          creatively but also taught me various software programs and allowed<br>
-          me to experiment with different styles and effects.<br>
-          <br>
-          In my spare time I enjoy traveling and learning about other<br>
-          cultures or relaxing with my family and friends. And the occasional<br>
+          For the past ten years, I've worked in the veterinary field,<br />
+          gaining extensive knowledge in animal care. Before that, I worked<br />
+          as a photographer for seven years, which not only helped me grow<br />
+          creatively but also taught me various software programs and allowed<br />
+          me to experiment with different styles and effects.<br />
+          <br />
+          In my spare time I enjoy traveling and learning about other<br />
+          cultures or relaxing with my family and friends. And the occasional<br />
           binge watching.
         </p>
       </div>
@@ -93,7 +93,7 @@
         style="height: 600px"
         class="about-image"
       />
-    </div>
+    </section>
     <section class="work-page" id="work">
       <h1 class="work-title">Work</h1>
       <div class="grid">
@@ -188,72 +188,65 @@
       </div>
     </section>
 
-    <div class="contact-page" id="contact">
+    <section class="contact-page" id="contact">
       <h1 class="contact_title">Get In Touch</h1>
-    </div>
-    <div class="contact_info">
-      Dar-Lissea Nobles<br />
-      Staten Island, N.Y<br />
-      <a href="mailto:darlissean@gmail.com">DarlisseaN@gmail.com</a>
-    </div>
-    <div class="container">
-      <form
-        action="mailto:darlissean@gmail.com"
-        method="post"
-        id="contact_form"
-      >
-        <label class="standard-label" for="fname">First Name</label>
-        <input
-          type="text"
-          id="fname"
-          name="firstname"
-          placeholder="Your first name"
-        />
+      <div class="contact_info">
+        Dar-Lissea Nobles<br />
+        Staten Island, N.Y<br />
+        <a href="mailto:darlissean@gmail.com">DarlisseaN@gmail.com</a>
+      </div>
+      <div class="container">
+        <form
+          action="mailto:darlissean@gmail.com"
+          method="post"
+          id="contact_form"
+        >
+          <label class="standard-label" for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your first name"
+          />
 
-        <label class="standard-label" for="lname">Last Name</label>
-        <input
-          type="text"
-          id="lname"
-          name="lastname"
-          placeholder="Your last name"
-        />
+          <label class="standard-label" for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name"
+          />
 
-        <label class="standard-label" for="contact_email">E-mail:</label>
-        <input type="text" id="contact_email" name="email" required />
+          <label class="standard-label" for="contact_email">E-mail:</label>
+          <input type="text" id="contact_email" name="email" required />
 
-        <!-- <label class="standard-label" for="contact telephone">Telephone: </label>
+          <!-- <label class="standard-label" for="contact telephone">Telephone: </label>
                   <input type="text" id="contact telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}"> -->
 
-        <label class="standard-label">Message: </label>
-        <textarea
-          id="subject"
-          name="subject"
-          maxlength="240"
-          required
-        ></textarea>
+          <label class="standard-label">Message: </label>
+          <textarea
+            id="subject"
+            name="subject"
+            maxlength="240"
+            required
+          ></textarea>
 
-        <input type="submit" value="send message" />
-      </form>
-    </div>
+          <input type="submit" value="send message" />
+        </form>
+      </div>
+    </section>
 
     <footer class="page-footer">
       <p>Find me on</p>
       <div class="social-media">
-        <!--add Github logo-->
-        <a href="https://github.com/Darnobles" target="_blank">
-          <img src="img/github_icon.svg" alt="Github" />
-        </a>
-        <!--add Linked in logo-->
-        <a href="https://www.linkedin.com/in/darlissea-nobles/" target="_blank">
-          <img src="img/linkedin_icon.svg" alt="Linked In" />
-        </a>
-        <!--add Twitter in logo-->
-        <a href="https://twitter.com/home" target="_blank">
-          <img src="img/twitter_icon.svg" alt="twitter" />
-        </a>
-        <!--add Medium in logo-->
-        <a href="https://medium.com/@darlissean" target="_blank">
-          <img src="img/medium_logo.svg" alt="medium" />
+        <a href="https://github.com/Darnobles" target="_blank"
+          ><img src="img/github_icon.svg" alt="Github" /></a
+        ><a href="https://www.linkedin.com/in/darlissea-nobles/" target="_blank"
+          ><img src="img/linkedin_icon.svg" alt="Linked In" /></a
+        ><a href="https://twitter.com/home" target="_blank"
+          ><img src="img/twitter_icon.svg" alt="twitter" /></a
+        ><a href="https://medium.com/@darlissean" target="_blank"
+          ><img src="img/medium_logo.svg" alt="medium" />
         </a>
       </div>
     </footer>
